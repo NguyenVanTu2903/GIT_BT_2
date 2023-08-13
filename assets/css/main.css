@@ -1,37 +1,45 @@
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    color: #fff;
-    text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
 }
 
 .header {
-    height: 200px;
-    line-height: 200px;
-    width: 100vw;
-    background-color: red;
+  height: 200px;
+  line-height: 200px;
+  width: 100vw;
+  background-color: red;
 }
 
 .main {
-    height: 600px;
-    line-height: 600px;
-    width: 100vw;
-    background-color: green;
+  height: 600px;
+  line-height: 600px;
+  width: 100vw;
+  background-color: green;
 }
 
 .footer {
-    height: 300px;
-    line-height: 300px;
-    width: 100vw;
-    background-color: blue;
+  height: 300px;
+  line-height: 300px;
+  width: 100vw;
+  background-color: blue;
+}
+
+a {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: pink;
+  border-radius: 5px;
+  text-decoration: none;
 }
